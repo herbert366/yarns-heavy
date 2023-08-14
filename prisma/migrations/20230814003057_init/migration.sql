@@ -1,0 +1,10 @@
+-- CreateTable
+CREATE TABLE "Card" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "tvShow" TEXT NOT NULL,
+    "subtitle" TEXT NOT NULL,
+    "time" REAL NOT NULL,
+    "url" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" DATETIME NOT NULL
+);
